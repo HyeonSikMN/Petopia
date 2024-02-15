@@ -1,0 +1,262 @@
+@charset "utf-8";
+video {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  background-color: rgba(255,255,255,0.2);
+  color: #ffffff;
+  padding: 10px;
+  text-align: right;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 2;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.menu li img {
+  /* 로고 이미지의 스타일링을 추가 */
+  float: left;
+  margin-right: 10px;
+}
+
+.menu {
+  list-style: none;
+
+
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 10px;
+  color:#000000;
+}
+
+.menu li:first-child {
+  margin-right: auto;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+/* 소개 섹션 스타일링 */
+.introduction {
+  padding: 5px;
+}
+
+.introduction h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.introduction p {
+  color: #666;
+  text-align: center;
+}
+
+/* 최신 소식 스타일링 */
+.latest-news {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightblue;
+  align-items: center;
+  text-align: center;
+}
+
+.latest-news h3{
+	margin-top: 50px;
+}
+
+.news-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-news {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 50px;
+  position: relative;
+}
+.more-button {
+  position: absolute;
+  right: 5px; /* 오른쪽 여백 조정 */
+  bottom: 10px; /* 아래쪽 여백 조정 */
+  padding: 5px 10px; /* 버튼 내부 여백 조정 */
+  font-size: 12px; /* 폰트 크기 조정 */
+  color: black;
+  background-color: lightblue;
+  border: none;
+}
+
+.bottom-news {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 50px;
+  display: none;
+  position: relative;
+}
+
+.close-button{
+  position: absolute;
+  right: 5px; /* 오른쪽 여백 조정 */
+  bottom: 10px; /* 아래쪽 여백 조정 */
+  padding: 5px 10px; /* 버튼 내부 여백 조정 */
+  font-size: 12px; /* 폰트 크기 조정 */
+  color: black;
+  background-color: lightblue;
+  border: none;
+}
+.news {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-news h3 {
+  flex-basis: 100%;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+
+}
+
+.latest-news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.latest-news li {
+  margin-bottom: 10px;
+}
+
+.latest-news h4 {
+  font-size: 16px;
+  color: #333;
+}
+
+/* 반려동물 사진 갤러리 스타일링 */
+.pet-gallery {
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.pet-gallery img{
+	margin-left: 50px;
+}
+
+.pet-gallery h3 {
+  font-size: 20px;
+  color: #333;
+  margin-left: 250px;
+}
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 550px; /* 슬라이드쇼 높이 조정 */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 25px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.slide.active {
+opacity: 1;
+}
+
+.gallery-content {
+  flex: 1;
+  margin-right: 200px;
+}
+
+.banner {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  position: absolute;
+  top: 0;
+  right: 900px;
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.banner img {
+  width: 650px;
+  height: 200px;
+}
+
+.hori-banner {
+  
+  margin-bottom: 20px;
+}
+
+.veri-banner img {
+  width: 250px;
+  height: 450px;
+  
+}
+
+.banner-text {
+   position: relative;
+   top: 10px;
+   left: 50px;
+   font-size: 20px;
+   color: #333;
+}
+/* 이용 안내 및 연락처 스타일링 */
+.contact {
+  padding: 20px;
+  color:#333;
+}
+
+.contact h3 {
+  font-size: 20px;
+  
+}
+
+.footer {
+  background-color: rgba(0,0,0,0.1);
+}
+
+body{
+	margin: 0;
+}

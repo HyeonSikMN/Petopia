@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "HTTP://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="false" />
+		<setting name="useGeneratedKeys" value="true" />
+		<setting name="defaultExecutorType" value="REUSE" />
+	</settings>
+	
+	<typeAliases>
+		<!-- typeAlias:특정클래스를 쉽게 호출하기 위한 별칭 -->
+		<typeAlias type="vo.MemberVO" alias="member"/>
+		<!-- <typeAlias type="vo.VisitVO" alias="visit"/> -->
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="config/mybatis/mapper/member.xml" />
+		<mapper resource="config/mybatis/mapper/gp.xml" />
+		<mapper resource="config/mybatis/mapper/board.xml" />
+	</mappers>
+	
+	
+	
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+

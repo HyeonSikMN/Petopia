@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* 섹션 스타일 */
+.section {
+	display: none;
+	margin-bottom: 20px;
+	display: none;
+	margin-bottom: 20px;
+}
+
+.write_post,
+.container,
+.post-radio {
+	margin: 10px;
+}
+
+.board {
+	list-style: none;
+	text-align: center;
+	font-size: 25px;
+	padding: 25px;
+}
+
+.board li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.board li a {
+	color: black;
+	text-decoration: none;
+}
+
+/* 게시판 스타일 */
+#post {
+	background-color: #f5f5f5;
+	padding: 10px;
+	float: left;
+	width: 20%;
+}
+
+/* 질문 스타일 */
+#question {
+	background-color: #f5f5f5;
+	padding: 10px;
+	float: left;
+	width: 20%;
+}
+
+/* 관리 스타일 */
+#management {
+	background-color: #f5f5f5;
+	padding: 10px;
+	float: left;
+	width: 20%;
+}
+
+/* 다이어리 스타일 */
+#diary {
+	background-color: #f5f5f5;
+	padding: 10px;
+	float: left;
+	width: 20%;
+}
+
+/* 글쓰기 버튼 스타일 */
+.write_post_2 {
+	
+}
+
+.write_post a {
+	color: #000;
+	text-decoration: none;
+	margin: 20;
+}
+
+/* 동물유형 버튼 스타일 */
+.container {
+	width: 150px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.animal-button {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px 10px;
+	background-color: rgb(188, 225, 238);
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.animal-button.active {
+	background-color: #ccc;
+}
+
+#apply-button {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color: lightblue;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+/* 글쓰기 버튼, 동물유형선택버튼 간격 조정 */
+.goToPage {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+}
+
+.write_post, .container {
+	margin-bottom: 15px;
+}
+
+hr {
+	border-color: lightblue;
+}
+
+/* 게시글 목록 스타일 */
+.post-list-container {
+	margin-bottom: 20px;
+}
+
+.post-list {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #f5f5f5;
+}
+
+.post-list h4 {
+	margin: 0;
+}
+
+.post-list p {
+	margin: 0;
+}

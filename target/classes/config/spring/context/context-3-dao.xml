@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 생성자 Injection으로 DAO에 sqlSession 객체를 추가 -->
+	<bean id="member_daoBean" class="dao.MemberDAO">
+		<constructor-arg ref="sqlSessionBean"/>
+	</bean>
+		 
+	<bean id="gp_daoBean" class="dao.GpDAO">
+		<property name="sqlSession" ref="sqlSessionBean"/>
+	</bean>
+		
+	<bean id="board_daoBean" class="dao.BoardDAO">
+		<property name="sqlSession" ref="sqlSessionBean"/>
+	</bean>
+	
+		<bean id="contet_daoBean" class="dao.ContentDAO">
+		<property name="sqlSession" ref="sqlSessionBean"/>
+	</bean>
+</beans>

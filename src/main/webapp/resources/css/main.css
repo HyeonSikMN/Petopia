@@ -1,0 +1,55 @@
+@charset "utf-8";
+nav {
+  position: relative;
+  background-color: lightblue;
+  color: #ffffff;
+  padding: 10px;
+  text-align: right;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 2;
+  box-sizing: border-box;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.menu li img {
+  /* 로고 이미지의 스타일링을 추가 */
+  float: left;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.menu {
+  list-style: none;
+
+
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.menu li:first-child {
+  margin-right: auto;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+body {
+	margin: 0;
+}

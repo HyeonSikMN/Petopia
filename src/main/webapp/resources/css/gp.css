@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* 샵 부분 css */
+
+html, body {
+	overflow-x: hidden; /* 박스 범위밖으로 나가면 text가 hidden으로 바뀌는 코드 */
+	width: 100vw;
+}
+
+section {
+	display: block;
+	padding: 40px 0;
+	width: 100%;
+}
+
+
+#shop {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.sectionHead {
+	font-size: 20px;
+	padding: 25px 0;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	word-spacing: 1.5px;
+	
+}
+
+.sectionSubHead {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	word-spacing: 1.5px;
+	margin-bottom: 5px;
+	margin-top: 32px;
+}
+
+.item-box {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	box-shadow: 9px 6px 13px rgba(0, 0, 0, 0.32);
+	transition: all 0.2s;
+}
+
+.item-box:hover {
+	transform: scale(1.2);
+}
+
+.item-box .item-box-img {
+	width: 100%;
+	height: 100%;
+	z-index: 15;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+}
+
+.item-box .item-box-img>img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: -1;
+}
+
+.item-box-head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 14px;
+	margin-left: 21px;
+	padding-left: 0;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.item-box .item-box-sub-text {
+	position: absolute;
+	left: 0;
+	top: 4px;
+	line-height: 1;
+	margin: 52px 8px;
+	margin-left: 21px;
+	width: 80%;
+	font-style: italic;
+	font-size: 13px;
+	color: #e6e6e6;
+}
+
+.item-box .item-box-btn {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	margin: 105px 8px;
+	margin-left: 22px;
+	font-size: 14px;
+	padding: 5px 18px;
+	color: #fff;
+	background-color: #e47618;
+	border: 0;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+
+.item-box .item-box-btn:hover {
+	background-color: #0e80cc;
+}
+
+.card-img-top {
+	max-height: 190px;
+}
+
+.card {
+	margin: 15px 0;
+	cursor: pointer;
+	box-shadow: 9px 9px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: 10px;
+	margin-left: 10px;
+	justify-content:space-around;
+}
+
+.column1 {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%
+}
+
+.column2 {
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 15.333333%;
+	max-width: 15.333333%;
+	
+}
+.card-productinfo{
+	
+
+}

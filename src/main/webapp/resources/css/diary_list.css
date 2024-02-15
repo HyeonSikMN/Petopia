@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.board_box,
+#diary-container,
+#direturn{
+	margin:10px;
+}
+.board_box {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+hr {
+	border-color: lightblue;
+	margin-bottom: 20px;
+}
+
+#sort-container {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+/* 수정 버튼에 색상 적용 */
+#modifyButton {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+}
+
+/* 삭제 버튼에 색상 적용 */
+#deleteButton {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+}

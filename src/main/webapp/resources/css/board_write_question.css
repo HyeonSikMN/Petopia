@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	padding: 3px;
+}
+
+input[type="text"], textarea, input[type="date"], input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+textarea {
+	height: 120px;
+	resize: none;
+}
+
+input[type="submit"] {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	background-color: lightblue;
+}
+
+p:first-of-type {
+	font-weight: bold;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.file-label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.file-input {
+	display: block;
+	margin-bottom: 10px;
+}
